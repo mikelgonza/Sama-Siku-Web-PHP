@@ -1,0 +1,419 @@
+body {
+	background-color: #000000;
+	font-family: "Trebuchet MS", Verdana, Helvetica;
+	font-size: 13px;
+	background-image: url(../imagenes/fondo.gif);
+	text-align:center;
+	margin-top: 0px;
+	}
+	
+li {
+	list-style-type: disc;
+}
+#venfoto {
+	position: relative;
+	margin: auto;
+	}
+	
+#contenedor {
+	position: relative;
+	margin:auto;
+	width:764px;
+	}
+
+#P, #parti P {
+	font-family: "Trebuchet MS", Verdana, Helvetica;
+	font-size: 13px;
+	text-align: justify;
+	}
+				
+#parti P.titulo {
+	font-size: 15px;
+	font-weight: bold;
+	}
+				
+#parti P.titulo2 {
+	font-size: 13px;
+	font-weight: bold
+	}
+	
+#parti td {
+	font-family: "Trebuchet MS", Verdana, Helvetica;
+	font-size: 13px
+	}
+
+#parti A {
+	font-family: "Trebuchet MS", Verdana, Helvetica;
+	text-decoration: none;
+	color: #000;
+	font-size: 13px
+	}
+
+#parti A:hover{
+	color: #0000ff;
+	}
+	
+#menuiz {
+	position: absolute;
+	top: 49px;
+	left: 1px;
+}
+
+#manmen {
+	position: absolute;
+	width: 600px;
+	top: 120px;
+	left: 50px;
+	text-align: justify;
+}
+
+
+/*
+********************************************************
+CABECERA (Logotipo)
+********************************************************
+*/
+
+#cabecera {
+	position: absolute;
+	top: 15px;
+	left: 0px;
+	width: 764px;
+	height: 164px;
+	
+}
+
+/*
+********************************************************
+CONTENIDO PAGINA 
+********************************************************
+*/
+
+#contenidopag {
+	position: absolute;
+	left: 0px;
+	top: 211px; 
+	width: 764px;
+	overflow: hidden;
+	}
+	
+		#atrilsup {
+			position: relative;
+			width: 764px;
+			height: 16px;
+			font-size: 0px;
+			background-image: url(../imagenes/atrilsup.png);
+		}
+		
+		#contenedorhoja {
+			position: relative;
+			width: 764px;
+			background-image: url(../imagenes/fondo3.png);
+		}
+		
+			#hoja {
+				position: relative;
+				width: 700px;
+				background-image: url(../imagenes/papel.png);
+				margin: 0px 32px 0px 32px;
+			}
+			
+				#partititulo {
+					position: relative;
+					width: 600px;
+					height: 140px;
+					margin: 0px 50px 0px 50px;
+				}
+								
+				#parti {
+					position: relative;
+					width: 600px;
+					background-image: url(../imagenes/fondo_parti.png);
+					margin: 0px 50px 0px 50px;
+					text-align: left;
+				}
+				
+					#mail2 {
+						position: relative;
+						top: -15px;
+						left: 46px;
+					}
+					
+					#fotoprueba {
+						position: relative;
+						top: 0px;
+						left: 0px;
+						width: 600px;
+						height: 800px;
+					}
+					
+					#video1 {
+						position: relative;
+						top: 20px;
+						left: 50px;
+					}
+		
+		#atrilinf {
+			position: relative;
+			width: 764px;
+			height: 15px;
+			font-size: 0px;
+			background-image: url(../imagenes/atrilinf.png);
+		}
+			
+		#pie {
+			position: relative;
+			width: 764px;
+			height: 100px;
+			background-image: url(../imagenes/fondo3.png);
+		}
+			
+			.pie_izq {
+				float: left;
+				width: 352px;
+				height: 64px;
+			}
+				.pie_izq_1 {
+					float: left;
+					width: 110px;
+					text-align: right;
+					color: #000;
+					font-weight: bold;
+				}
+				
+				.pie_izq_2 {
+					float: left;
+					text-align: left;
+					color: #3333cc;
+					font-weight: normal;
+				}
+
+			.pie_atril {
+				float: left;
+				width: 66px;
+				height: 64px;
+				background-image: url(../imagenes/atrilinf2.png);
+			}
+			
+			.pie_dch {
+				float: left;
+				width: 346px;
+				height: 64px;
+			}
+				.pie_dch_1 {
+					float: left;
+					width: 150px;
+					text-align: right;
+					color: #000;
+					font-weight: bold;
+				}
+				
+				.pie_dch_2 {
+					float: left;
+					text-align: left;
+					color: #3333cc;
+					font-weight: normal;
+				}
+		
+		#bordeinf {
+			position: relative;
+			width: 764px;
+			height: 2px;
+			background-image: url(../imagenes/fondonegro.png);
+			font-size: 0px;
+			margin-bottom: 20px;
+		}
+/*
+********************************************************
+MENU SUPERIOR
+********************************************************
+*/
+
+#menusup {
+	position: absolute;
+	top: 177px;
+	left: 0px;
+	width: 764px;
+	background-color: #000;
+	}
+
+/* All <ul> tags in the menu including the first level */
+.menulist, .menulist  ul {
+ margin: 0;
+ padding: 0;
+ list-style: none;
+}
+
+/* Submenus (<ul> tags) are hidden and absolutely positioned downwards from their parent */
+.menulist ul {
+ display: none;
+ position: absolute;
+ top: 1.0em; margin-top: 19px; /* I'm using ems and px to allow people to zoom their font */
+ left: -1px;
+ width: 140px;
+ font-family: verdana,arial,helvetica,sans-serif;
+ font-size: 12px;
+ font-weight: bold;
+}
+
+/* Second and third etc. level submenus - position across from parent instead */
+.menulist ul ul {
+ top: 12px; margin-top: 0;
+ left: 100px;
+}
+
+/*
+ All menu items (<li> tags). 'float: left' lines them up horizontally, and they are
+ positioned relatively to correctly offset submenus. Also, they have overlapping borders.
+*/
+.menulist li {
+ float: left;
+ display: block;
+ position: relative;
+ background: #FED;
+ border: 1px solid #330;
+}
+
+.menulist li.menutit {
+	border: 0px;
+	margin: 0px;
+	background: transparent;
+	
+}
+
+/* Items in submenus - override float/border/margin from above, restoring default vertical style */
+.menulist ul li {
+ float: none;
+ margin: 0;
+ margin-bottom: -1px;
+}
+
+
+/* Links inside the menu */
+.menulist a {
+ display: block;
+ padding: 3px 0 3px 5px;
+ color: #000;
+ text-decoration: none;
+ text-align: left;
+}
+
+.menulist a.ani {
+	color: #c93;
+}
+
+
+/* Lit  items: 'hover' is mouseover, 'highlighted' are parent items to visible menus */
+.menulist a:hover, .menulist a.highlighted:hover, .menulist a:focus {
+ color: #FFF;
+ background-color: #A64;
+ 
+}
+.menulist a.highlighted {
+ color: #FFF;
+ background-color: #C86;
+}
+
+/*
+ If you want per-item background images in your menu items, here's how to do it.
+ 1) Assign a unique ID tag to each link in your menu, like so: <a id="xyz" href="#">
+ 2) Copy and paste these next lines for each link you want to have an image:
+    .menulist a#xyz {
+      background-image: url(out.gif);
+    }
+    .menulist a#xyz:hover, .menulist a.highlighted#xyz, .menulist a:focus {
+     background-image: url(over.gif);
+    }
+*/
+
+/*-------------------------------------------------------------------*/
+/*         INICIO OPCIONES MENU                                      */
+/*		   Opciones principales                                      */
+/*-------------------------------------------------------------------*/
+.menulist a.menutit_a {
+	background-image: url(../imagenes/boton1.png);
+	background-repeat: no-repeat;
+	padding: 0px;
+	width: 100px;
+	height: 34px;
+	margin: 0px 0px 0px 2px;
+}
+.menulist a.menutitultimo {
+	background-image: url(../imagenes/boton1.png);
+	background-repeat: no-repeat;
+	padding: 0px;
+	width: 100px;
+	height: 34px;
+	margin: 0px 2px 0px 2px;
+}
+
+.menulist li#atril2 {
+	background-image: url(../imagenes/atril2.png);
+	padding: 0px;
+	border: none;
+	width: 148px;
+	height: 34px;
+	margin: 0px 0px 0px 2px;
+}
+
+.menulist li#fondomenuiz {
+	background-color: #000;
+	padding: 0px;
+	border: none;
+	width: 304px;
+	height: 34px;
+	margin: 0px 0px 0px 2px;
+}
+
+
+/*		Opciones principales con el raton encima     */
+.menulist a.menutit_a:hover, .menulist a.menutitultimo:hover {
+	background-image: url(../imagenes/boton2.png);
+	font-weight: bold;
+}
+
+/* Only style submenu indicators within submenus. */
+.menulist a .subind {
+ display: none;
+}
+.menulist ul a .subind {
+ display: block;
+ float: right;
+}
+
+
+/* 'Escaped Comment' hack for horizontal menubar width in IE5/Mac */
+.menulist a {
+ float: left;
+}
+.menulist ul a {
+ float: none;
+}
+/* \*/
+.menulist a {
+ float: none;
+}
+/* */
+
+
+/*
+ HACKS: IE/Win:
+ A small height on <li> and <a> tags and floating prevents gaps in menu.
+ * html affects <=IE6 and *:first-child+html affects IE7.
+ You may want to move these to browser-specific style sheets.
+*/
+*:first-child+html .menulist ul li {
+ float: left;
+ width: 100%;
+}
+
+* html .menulist ul li {
+ float: left;
+ height: 1%;
+}
+* html .menulist ul a {
+ height: 1%;
+}
+/* End Hacks */
+
+
