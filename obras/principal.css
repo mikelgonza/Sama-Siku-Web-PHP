@@ -1,0 +1,75 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #ffffff;
+	color: #646464;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	height: 100%;
+	text-align: center;
+}
+
+#principal {
+	background-color: #000000;
+	position: relative;
+	margin-top: 15px;
+	height: 500px;
+	width: 788px;
+	
+}
+
+#arriba h1 {
+	background-image: url(obras/header.jpg);
+	float: left;
+	
+	position: relative;
+	top: 1px;
+	left: 1px;
+	width: 786px;
+	height: 160px;
+	font-size: 1px;
+}
+
+#arriba li {
+	display: block;
+	float: left;
+	height: 30px;
+	width: 100px;
+}
+
+#arriba li a{
+	background-image: url(obras/boton1.gif);
+	display: block;
+	float: left;
+	height: 30px;
+	letter-spacing: 2px;
+	padding: 0px 0;
+	text-decoration: none;
+	width: 100px;
+}
+
+#arriba li a:hover {
+	background-image: url(obras/boton2.gif);
+	background-repeat: no-repeat;
+	color: #FFFFFF;
+	display: block;
+}
+
+#arriba ul{
+	
+	clear: both;
+	display: block;
+	float: left;
+	height: 30px;
+	position: relative;
+	top: 1px;
+	left: 1px;
+	width: 500px;
+
+
+
+
+

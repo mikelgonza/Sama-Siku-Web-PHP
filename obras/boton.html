@@ -1,0 +1,63 @@
+<HEAD>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+<!--
+
+browserName = navigator.appName;
+
+browserVer = parseInt(navigator.appVersion);
+
+if(browserName=="Netscape" && browserVer >= 3) ver = "yes";
+
+else ver = "yes";
+
+if(ver == "yes") {
+
+HTMLit1 = new Image(); HTMLit1.src ="boton1.gif";
+
+HTMLit2 = new Image(); HTMLit2.src ="boton2.gif";
+
+}
+
+function active(imgName)
+
+{
+
+if (ver == "yes") {
+
+img1 = eval(imgName + "1.src");
+
+document [imgName].src = img1;
+
+}}
+
+function inactive(imgName)
+
+{
+
+if (ver == "yes") {
+
+img2 = eval(imgName + "2.src");
+
+document [imgName].src = img2;
+
+}}
+
+// -->
+
+</SCRIPT>
+
+</HEAD>
+
+<BODY>
+
+<A HREF="link.htm" onMouseover="inactive('HTMLit');window.status='HTMLit'" onMouseout= "active('HTMLit')">
+
+<IMG NAME="HTMLpoint" SRC="boton1.gif" ALT="HTMLpoint" width=80 height=30 border=0>
+
+</A> 
+
+</BODY>
+
+
